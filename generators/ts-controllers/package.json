@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-sails-controller-ts",
+  "version": "0.10.0",
+  "description": "sails generate sails-controller-ts",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sails-controller-ts",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "sails-controller-ts",
+    "behavior": "overrides `sails generate sails-controller-ts`",
+    "sailsVersion": "~0.10.0"
+  }
+}

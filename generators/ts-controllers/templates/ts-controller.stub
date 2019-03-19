@@ -1,0 +1,10 @@
+/**
+ * dummy_controller
+ *
+ */
+class dummy_controller{
+
+     // ...dummy_controller methods here
+}
+
+module.exports = new dummy_controller();

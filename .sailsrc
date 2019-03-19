@@ -1,0 +1,19 @@
+{
+  "generators": {
+    "modules": {
+      "ts-declare":"../generators/makeDeclarations",
+      "ts-service":"../generators/ts-service",
+      "ts-controller":"../generators/ts-controllers",
+      "seed":"../generators/seed"
+    }
+  },
+   "paths": {
+        "public": "assets"
+    },
+     "hooks": {
+      "grunt": "false",
+      "orm": "false",
+      "pubsub": "false",
+      "views": "false"
+    }
+}

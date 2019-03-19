@@ -1,0 +1,10 @@
+/**
+ * dummy_service Service
+ *
+ */
+class dummy_service{
+
+     // ...dummy_service methods here
+}
+
+module.exports = new dummy_service();
