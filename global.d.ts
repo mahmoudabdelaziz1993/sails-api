@@ -215,10 +215,13 @@ declare global {
 
 
     export interface User {
-        id: number;
-        name: string;
-        createdAt: string;
-        updatedAt: string;
+        first_name?: string,
+        last_name?: string,
+        email?: string,
+        password?: string,
+        apItoken?:string,
+        createdAt?: string,
+        updatedAt?: string
     }
     export interface Todo {
         title:string,

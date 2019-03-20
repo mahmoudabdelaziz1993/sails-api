@@ -6,7 +6,7 @@ export class Todo extends sequelizeModel{
             title:DataTypes.STRING,
             createdAt:{type:DataTypes.DATE},
             done:{type:DataTypes.BOOLEAN, defaultValue:false, allowNull:true},
-            doneAt:{type:DataTypes.DATE, allowNull:true},
+            doneAt:{type:DataTypes.DATE, allowNull:true,defaultValue:false},
         }
     }
 }
