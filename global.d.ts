@@ -231,6 +231,8 @@ declare global {
     }
     var User: SequelizeModel<User, User>;
     var Todo: SequelizeModel<Todo, Todo>;
+    
+    
     //<models here>
 
     var ExampleService: Exampleservice;
